@@ -98,7 +98,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_F6,    KC_F7,    KC_F8,   KC_F9,    KC_F10,  KC_F11,  KC_F12,
         KC_NO,    KC_KP_7,  KC_KP_8, KC_KP_9,  KC_NO,   KC_NO,   KC_NO,
         KC_NO,    KC_KP_4,  KC_KP_5, KC_KP_6,  KC_NO,            MO(_M3),
-                  DE_COLN,  KC_KP_1, KC_KP_2,  KC_NO,   KC_NO,   MO(_M2),
+                  DE_COLN,  KC_KP_1, KC_KP_2,  KC_NO,   QK_BOOTLOADER,   MO(_M2),
         KC_ENTER, KC_ENTER, MO(_M4), MO(_FN),  KC_MENU, KC_RALT, KC_RCTL
     )
    // [_FN] = LAYOUT(
