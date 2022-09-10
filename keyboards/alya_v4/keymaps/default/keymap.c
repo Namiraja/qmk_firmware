@@ -69,7 +69,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         MO(_M2),  DE_HASH,  DE_DLR,  DE_PIPE,    DE_TILD,  DE_GRV,    KC_BACKSPACE,
         KC_LCTL,  KC_LWIN,  MO(_FN), MO(_M4),    KC_LALT,  KC_SPACE,  KC_SPACE,
 
-        KC_NO,    KC_NO,    KC_NO,   KC_NO,      KC_NO,     KC_NO,    KC_PAGE_UP,
+        KC_NO,    KC_NO,    KC_NO,   KC_NO,      KC_NO,     DE_AT,    KC_PAGE_UP,
         DE_EXLM,  DE_LABK,  DE_RABK, DE_EQL,     DE_AMPR,   KC_NO,    KC_PAGE_DOWN,
         DE_QUES,  DE_LPRN,  DE_RPRN, DE_MINS,    DE_COLN,             MO(_M3),
                   DE_PLUS,  DE_PERC, DE_DQUO,    DE_QUOT,   DE_SCLN,  MO(_M2),
