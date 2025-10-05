@@ -39,15 +39,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_BASE] = LAYOUT(
         KC_ESC,   DE_0,     DE_1,    DE_2,    DE_3,    DE_4,     DE_5,
         KC_TAB,   DE_Q,     DE_J,    DE_D,    DE_U,    DE_A,     DE_X,
-        KC_ESC,             DE_C,    DE_T,    DE_I,    DE_E,     DE_O,
+        MO(_M3),            DE_C,    DE_T,    DE_I,    DE_E,     DE_O,
         KC_LSFT,  DE_F,     DE_V,    DE_UDIA, DE_ADIA, DE_ODIA,  KC_BACKSPACE,
         KC_LCTL,  MO(_FN),  KC_LWIN, KC_LALT, MO(_M4), KC_LSFT,  KC_LCTL,
 
         DE_6,     DE_7,     DE_8,    DE_9,    DE_0,    DE_CIRC,  KC_PGUP,
         DE_P,     DE_H,     DE_L,    DE_M,    DE_W,    DE_SS,    KC_PGDN,
-        DE_B,     DE_N,     DE_R,    DE_S,    DE_G,              MO(_M4),
+        DE_B,     DE_N,     DE_R,    DE_S,    DE_G,              MO(_M3),
                   DE_Y,     DE_Z,    DE_COMM, DE_DOT,  DE_K,     KC_RSFT,
-        KC_ENTER, KC_SPACE, MO(_M3), KC_LALT, KC_RWIN, MO(_FN),  KC_RCTL
+        KC_ENTER, KC_SPACE, MO(_M4), KC_LALT, KC_RWIN, MO(_FN),  KC_RCTL
     ),
     [_M3] = LAYOUT(
         KC_ESC,   KC_GRV,   DE_DEG,       DE_SECT,    KC_NO,    KC_NO,     KC_NO,
